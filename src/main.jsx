@@ -1,26 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import './StyledComponents/main.css'
+import './main.css'
 
-import NavBar from './Components/NavBar'
-import Presentacion from './Components/Presentacion.jsx'
-import Skills from './Components/Skills'
-import PracticasDeQA from './Components/PracticasDeQA'
-import ProyectoDeFrontend from './Components/ProyectoDeFrontend'
-// import Herramientas from './Components/Herramientas'
-import Contacto from './Components/Contacto'
-import Footer from './Components/Footer'
+import NavBar from './Components/NavBar/NavBar'
+import Presentacion from './Components/Presentacion/Presentacion.jsx'
+import Skills from './Components/Skills/Skills'
+import PracticasDeQA from './Components/PracticasDeQA/PracticaQA'
+import ProyectoDeFrontend from './Components/ProyectoFrontend/ProyectoDeFrontend'
+import Contacto from './Components/Contacto/Contacto'
+import Footer from './Components/Footer/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <NavBar />
-    <div className="mx-40 my-5">
+    <div className="mx-48 my-10">
       <Presentacion />
       <Skills />
       <PracticasDeQA />
       <ProyectoDeFrontend />
-      {/* <Herramientas /> */}
       <Contacto />
       <Footer />
     </div>
