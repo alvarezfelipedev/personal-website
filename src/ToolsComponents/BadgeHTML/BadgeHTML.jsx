@@ -1,4 +1,4 @@
-import "./badgesHTML.css"
+import "./badgeHTML.css"
 
 function BadgeHTML() {
     return (

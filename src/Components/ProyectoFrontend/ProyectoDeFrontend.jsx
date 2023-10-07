@@ -18,10 +18,9 @@ function ProyectoDeFrontend() {
       <Linea />
 
       <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-y-10 p-2">
-        <div className="cardProyecto w-96 h-auto bg-white border  rounded-lg shadow border-gray-700">
+        <div className="cardProyecto w-96 h-auto border shadow-lg border-gray-700  ">
           <a href="#">
             <img
-              className="rounded-t-lg"
               src="https://i.ibb.co/D9xtbJ5/e-commerce.webp"
               alt="Portada del Sitio Web del e-commerce"
             />
@@ -39,7 +38,7 @@ function ProyectoDeFrontend() {
               <BadgeCSS />
             </div>
 
-            <p className="mb-3 font-normal text-gray-200">
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
               Diseñado para vendedor de indumentaria deportiva.
             </p>
 
@@ -53,10 +52,9 @@ function ProyectoDeFrontend() {
           </div>
         </div>
 
-        <div className="cardProyecto w-96 h-auto bg-white border  rounded-lg shadow dark:bg-gray-800 border-gray-700">
+        <div className="cardProyecto w-96 h-auto border shadow-lg border-gray-700">
           <a href="#">
             <img
-              className="rounded-t-lg"
               src="https://i.ibb.co/nDNg23N/inmobiliaria-MC.webp"
               alt="Portada del Sitio Web de la Inmobiliaria"
             />
@@ -75,7 +73,7 @@ function ProyectoDeFrontend() {
               <BadgeCSS />
             </div>
 
-            <p className="mb-3 font-normal text-gray-200">
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
               Permite conocer los hogares en venta de forma sensilla.
             </p>
 
@@ -87,10 +85,9 @@ function ProyectoDeFrontend() {
           </div>
         </div>
 
-        <div className="cardProyecto w-96 h-auto bg-white border border-gray-700 rounded-lg shadow">
+        <div className="cardProyecto w-96 h-auto border shadow-lg border-gray-700">
           <a href="#">
             <img
-              className="rounded-t-lg"
               src="https://i.ibb.co/s2hmN4s/seguri-Prop.webp"
               alt="Portada del Sitio Web de Seguri Pro"
             />
@@ -108,7 +105,7 @@ function ProyectoDeFrontend() {
               <BadgeCSS />
             </div>
 
-            <p className="mb-3 font-normal text-gray-200">
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
               Diseñado para una empresa de Seguridad Informática.
             </p>
 

@@ -25,7 +25,7 @@ function PracticasDeQA() {
 
         </div>
 
-        <div className="cardQA max-w-sm">
+        <div className="max-w-sm">
           <a href="#">
             <h5 className="mb-2 text-xl tracking-tight text-gray-900 dark:text-white">Practicas con API's</h5>
           </a>
