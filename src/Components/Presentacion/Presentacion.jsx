@@ -29,7 +29,7 @@ function Presentacion() {
             </p>
 
             <p className='sobre-mi'>
-              Tengo <b className='font-b'>habilidades técnicas y creativas</b>, y me considero una persona trabajadora y responsable. He realizado proyectos personales para demostrar mis conocimientos en la parte de Testing y de desarrollador.</p>
+              Tengo <b className='font-b'>habilidades técnicas y creativas</b>, me considero una persona trabajadora y responsable. He realizado proyectos personales para demostrar mis conocimientos en la parte de Testing y de desarrollador.</p>
           </div>
 
           <VerCV />
