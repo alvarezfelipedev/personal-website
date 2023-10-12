@@ -7,13 +7,6 @@ import linkedin from "../../assets/Icons-SVG/linkedin.svg"
 function Contacto() {
   return (
     <section id="contacto" className="flex flex-row justify-center mb-10">
-      <a target="_blank" href="https://github.com/alvarezfelipedev" rel="noreferrer">
-        <button className="Btn mx-3">
-          <span className="svgContainer">
-            <img width="30" height="30" src={github} alt="Logo de GitHub, hipervinculo hacia mi perfil en GitHub" />
-          </span>
-        </button>
-      </a>
 
       <a target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=n.felialvarez@gmail.com" rel="noreferrer">
         <button className="Btn mx-3">
@@ -27,6 +20,14 @@ function Contacto() {
         <button className="Btn mx-3">
           <span className="svgContainer">
             <img width="35" height="35" src={linkedin} alt="Logo de LinkedIn, hipervinculo hacia mi perfil de LinkedIn" />
+          </span>
+        </button>
+      </a>
+      
+      <a target="_blank" href="https://github.com/alvarezfelipedev" rel="noreferrer">
+        <button className="Btn mx-3">
+          <span className="svgContainer">
+            <img width="30" height="30" src={github} alt="Logo de GitHub, hipervinculo hacia mi perfil en GitHub" />
           </span>
         </button>
       </a>

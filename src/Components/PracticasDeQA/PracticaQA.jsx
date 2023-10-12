@@ -11,7 +11,7 @@ function PracticasDeQA() {
       <h2 className="titulo text-2xl font-medium">Practicas como QA Manual</h2>
       <Linea />
 
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-y-10 p-2">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-y-12 p-2">
         <div className="max-w-sm">
           <a href="#">
             <h5 className="mb-2 text-xl tracking-tight text-gray-900 dark:text-white">Casos de Prueba</h5>

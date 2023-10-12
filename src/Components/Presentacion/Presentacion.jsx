@@ -11,7 +11,7 @@ function Presentacion() {
         <div className='ml-5 mr-5'>
 
           <div className='mb-6'>
-            <h1 className="titulo text-4xl font-bold mb-2">Felipe Alvarez</h1>
+            <h1 className="titulo text-4xl font-bold ">Felipe Alvarez</h1>
             <div className='flex flex-row'>
               <h2 className="subtitulo text-xl">QA Tester Manual | Front-End Developer</h2>
               <img width="30" height="30" className='ml-2' src="https://img.icons8.com/emoji/48/000000/man-technologyst.png" alt="man-technologyst" />

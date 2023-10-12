@@ -1,9 +1,9 @@
-.btn {
+.btn-ver-mas {
     border: none;
     background: none;
 }
 
-.btn span {
+.btn-ver-mas span {
     padding-bottom: 7px;
     letter-spacing: 4px;
     font-size: 14px;
@@ -11,16 +11,16 @@
     text-transform: uppercase;
 }
 
-.btn svg {
+.btn-ver-mas svg {
     transform: translateX(-8px);
     transition: all 0.3s ease;
 }
 
-.btn:hover svg {
+.btn-ver-mas:hover svg {
     transform: translateX(0);
 }
 
-.btn:active svg {
+.btn-ver-mas:active svg {
     transform: scale(0.9);
 }
 
@@ -43,7 +43,7 @@
     transition: transform 0.25s ease-out;
 }
 
-.btn:hover .hover-underline-animation:after {
+.btn-ver-mas:hover .hover-underline-animation:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
