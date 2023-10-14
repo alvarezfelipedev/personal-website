@@ -10,17 +10,19 @@ import PracticasDeQA from './Components/PracticasDeQA/PracticaQA'
 import ProyectoDeFrontend from './Components/ProyectoFrontend/ProyectoDeFrontend'
 import Contacto from './Components/Contacto/Contacto'
 import Footer from './Components/Footer/Footer'
+import CasosDePrueba from './Components/CasosDePrueba/CasosDePrueba'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <NavBar />
-    <div className="mx-48 my-10">
+    {/* <div className="mx-48 my-10">
       <Presentacion />
       <Skills />
       <PracticasDeQA />
       <ProyectoDeFrontend />
       <Contacto />
       <Footer />
-    </div>
+    </div> */}
+    <CasosDePrueba/>
   </React.StrictMode>
 )
