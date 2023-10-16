@@ -1,32 +1,36 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 import './main.css'
 
-import NavBar from './Components/NavBar/NavBar'
-import Presentacion from './Components/Presentacion/Presentacion.jsx'
-import Skills from './Components/Skills/Skills'
-import PracticasDeQA from './Components/PracticasDeQA/PracticaQA'
-import ProyectoDeFrontend from './Components/ProyectoFrontend/ProyectoDeFrontend'
-import Contacto from './Components/Contacto/Contacto'
-import Footer from './Components/Footer/Footer'
+import Home from './Home'
 import CasosDePrueba from './Components/CasosDePrueba/CasosDePrueba'
 import TestDeApis from './Components/TestDeApis/TestDeApis'
-import UtilizacionSQL from './Components/UtilizacionSQL/UtilizacionSQL'
+import UsoDeSQL from './Components/UsoDeSQL/UsoDeSQL'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />
+  },
+  {
+    path: '/casosdeprueba',
+    element: <CasosDePrueba />
+  },
+  {
+    path: '/testdeapis',
+    element: <TestDeApis />
+  },
+  {
+    path: '/usodesql',
+    element: <UsoDeSQL />
+  }
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <NavBar /> */}
-    {/* <div className="mx-48 my-10">
-      <Presentacion />
-      <Skills />
-      <PracticasDeQA />
-      <ProyectoDeFrontend />
-      <Contacto />
-      <Footer />
-    </div> */}
-    {/* <CasosDePrueba/> */}
-    {/* <TestDeApis/> */}
-    <UtilizacionSQL/>
+    <RouterProvider router={router} />
   </React.StrictMode>
 )

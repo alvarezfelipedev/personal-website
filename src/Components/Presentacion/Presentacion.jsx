@@ -10,7 +10,7 @@ function Presentacion() {
         <img className='foto-perfil mt-20' src={fotoDePerfil} alt="foto de perfil" />
         <div className='ml-5 mr-5'>
 
-          <div className='mb-6'>
+          <div className='mb-5'>
             <h1 className="titulo text-4xl font-bold ">Felipe Alvarez</h1>
             <div className='flex flex-row'>
               <h2 className="subtitulo text-xl">QA Tester Manual | Front-End Developer</h2>

@@ -1,15 +1,17 @@
-import Footer from "../Footer/Footer";
+import NavBarPage from "../NavBarPage/NavBarPage";
 
 function CasosDePrueba() {
     return (
-        <section className="mx-48 my-10">
-            <div className="">
+    <>
+        <NavBarPage />
+        <main className="mx-48 my-10">
+            <div>
                 <h1 className="text-4xl font-semibold mb-2">
                     Ejemplos de Casos de Prueba
                 </h1>
                 <h2 className="text-lg">
                     Armado de Casos de Prueba para la página:{" "}
-                    <a href="https://commitquality.com/add-product">
+                    <a href="https://commitquality.com/add-product" target="_blank" rel="noreferrer">
                         <u className="text-cyan-400 hover:text-cyan-500">
                             https://commitquality.com/add-product
                         </u>
@@ -189,9 +191,8 @@ function CasosDePrueba() {
                 </p>
             </div>
 
-        <Footer/>
-            
-        </section>
+        </main>
+    </>
     );
 }
 

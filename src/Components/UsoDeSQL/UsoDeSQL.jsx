@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 
 import NavBarPage from "../NavBarPage/NavBarPage";
-import "./utilizacionSQL.css"
+import "./usoDeSQl.css"
 
 import hljs from "highlight.js";
 import "highlight.js/styles/devibeans.css";
@@ -16,8 +16,8 @@ function UtilizacionSQL() {
     return (
         <>
             <NavBarPage />
-            <section className="mx-48 my-10">
-                <h2 className="text-4xl font-semibold mb-2">Utilización de SQL</h2>
+            <main id="#" className="mx-48 my-10">
+                <h2 className="text-4xl font-semibold mb-2">Uso de SQL</h2>
                 <div className="my-8">
                     <p className="my-4 text-xl"><u>Consigna:</u></p>
 
@@ -167,7 +167,7 @@ JOIN Departments d ON e.departmentId = d.Id;`}
 
                 </div>
 
-            </section>
+            </main>
         </>
     )
 }

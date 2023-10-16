@@ -29,14 +29,22 @@ function NavBar() {
 
   return (
     <main className="my-5">
-      <div className="flex flex-row justify-end">
-        <div>
-          <a href="#skills" className="menu p-3">Skills</a>
-          <a href="#practica-qa" className="menu p-3">Practicas QA</a>
-          <a href="#proyecto-front-end" className="menu p-3">Proyectos Front-End</a>
-          <a href="#contacto" className="menu p-3">Contacto</a>
-        </div>
-      </div>
+      <nav className="flex justify-end">
+        <ul className='flex flex-row'>
+          <li>
+            <a href="#skills" className="menu p-3">Skills</a>
+          </li>
+          <li>
+            <a href="#practica-qa" className="menu p-3">Practicas QA</a>
+          </li>
+          <li>
+            <a href="#proyecto-front-end" className="menu p-3">Proyectos Front-End</a>
+          </li>
+          <li>
+            <a href="#contacto" className="menu p-3">Contacto</a>
+          </li>
+        </ul>
+      </nav>
 
       <div className="flex flex-row justify-end mr-12">
         <a id="scroll-up" className="scroll-up" href="#inicio" onClick={() => scrollToTop()} style={{ display: showArrow ? 'block' : 'none' }}>

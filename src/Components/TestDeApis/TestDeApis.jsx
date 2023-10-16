@@ -12,13 +12,14 @@ function TestDeApis() {
         hljs.initHighlighting();
     }, []);
 
-    return (<>
+    return (
+    <>
         <NavBarPage />
-        <section className="mx-48 my-10">
+        <main id="#" className="mx-48 my-10">
             <h2 className="text-4xl font-semibold mb-2">Test de API's</h2>
             <div className="my-8">
                 <p className="my-4 text-xl">1.</p>
-                <p className="text-lg my-4">API: <a href="https://digidates.de/api/v1/week?date=2023-04-13"><u className="text-cyan-400 hover:text-cyan-500">https://digidates.de/api/v1/week?date=2023-04-13</u></a></p>
+                <p className="text-lg my-4">API: <a href="https://digidates.de/api/v1/week?date=2023-04-13" target="_blank" rel="noreferrer"><u className="text-cyan-400 hover:text-cyan-500">https://digidates.de/api/v1/week?date=2023-04-13</u></a></p>
                 <p className="my-4">MÉTODO UTILIZADO: GET</p>
                 <p>TEST:</p>
                 <pre>
@@ -143,7 +144,7 @@ pm.test("Tiempo de respuesta < 1600", function () {
                 <p className="mt-2">Esta prueba verifica si el atributo <strong>barrio</strong> en la respuesta de la API es igual a <strong>Retiro</strong> y muestra en la consola si el barrio es "Retiro" o no. Si el barrio no es "Retiro", la prueba fallará y mostrará un mensaje de error.</p>
                 <p>En este caso, el resultado es correcto, por lo tanto, la prueba pasa ✅</p>
             </div>
-        </section>
+        </main>
     </>
     )
 }

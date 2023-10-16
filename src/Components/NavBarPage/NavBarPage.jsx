@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
 import "./navbarPage.css";
+import { Link } from 'react-router-dom';
 
 function scrollToTop() {
   window.scrollTo({
@@ -29,11 +30,14 @@ function NavBarPage() {
 
   return (
     <main className="my-5">
-      <div className="flex flex-row justify-end">
-        <div>
-          <a href="#home" className="menu p-3">Home</a>
-        </div>
-      </div>
+
+      <nav className="flex flex-row justify-end">
+        <ul>
+          <li>
+            <Link to={'/'} className='menu p-3'>Home</Link >
+          </li>
+        </ul>
+      </nav>
 
       <div className="flex flex-row justify-end mr-12">
         <a id="scroll-up" className="scroll-up" href="#inicio" onClick={() => scrollToTop()} style={{ display: showArrow ? 'block' : 'none' }}>
