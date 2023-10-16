@@ -10,6 +10,7 @@ import CasosDePrueba from './Components/CasosDePrueba/CasosDePrueba'
 import TestDeApis from './Components/TestDeApis/TestDeApis'
 import UsoDeSQL from './Components/UsoDeSQL/UsoDeSQL'
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/usodesql',
-    element: <UsoDeSQL />
+    element: <UsoDeSQL/>
   }
 ])
 

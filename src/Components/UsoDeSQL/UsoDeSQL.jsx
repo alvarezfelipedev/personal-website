@@ -8,7 +8,7 @@ import hljs from "highlight.js";
 import "highlight.js/styles/devibeans.css";
 
 
-function UtilizacionSQL() {
+function UsoDeSQL() {
     useEffect(() => {
         hljs.initHighlighting();
     }, []);
@@ -172,4 +172,4 @@ JOIN Departments d ON e.departmentId = d.Id;`}
     )
 }
 
-export default UtilizacionSQL;
+export default UsoDeSQL;
