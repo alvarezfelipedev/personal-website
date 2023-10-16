@@ -11,10 +11,12 @@ import ProyectoDeFrontend from './Components/ProyectoFrontend/ProyectoDeFrontend
 import Contacto from './Components/Contacto/Contacto'
 import Footer from './Components/Footer/Footer'
 import CasosDePrueba from './Components/CasosDePrueba/CasosDePrueba'
+import TestDeApis from './Components/TestDeApis/TestDeApis'
+import UtilizacionSQL from './Components/UtilizacionSQL/UtilizacionSQL'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <NavBar />
+    {/* <NavBar /> */}
     {/* <div className="mx-48 my-10">
       <Presentacion />
       <Skills />
@@ -23,6 +25,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Contacto />
       <Footer />
     </div> */}
-    <CasosDePrueba/>
+    {/* <CasosDePrueba/> */}
+    {/* <TestDeApis/> */}
+    <UtilizacionSQL/>
   </React.StrictMode>
 )

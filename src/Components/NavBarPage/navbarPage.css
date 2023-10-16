@@ -1,0 +1,60 @@
+a {
+    text-decoration: none;
+}
+
+.menu {
+    color: #fff;
+    line-height: 2;
+    position: relative;
+}
+
+.menu::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #11ADEA;
+    position: absolute;
+    bottom: -.25rem;
+    left: 0;
+    transition: width .4s;
+}
+
+.menu:hover::before {
+    width: 100%;
+}
+
+.scroll-up {
+    right: 3rem;
+    bottom: -50%;
+    z-index: 10;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: bottom .4s, transform .4s;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.scroll-up:hover {
+    transform: translateY(-.25rem);
+}
+
+/* Show scroll-up */
+._show-scroll {
+    bottom: 3rem;
+}
+
+@media (max-width: 1199.98px) {
+    .scroll-up {
+        right: 1rem;
+    }
+}
