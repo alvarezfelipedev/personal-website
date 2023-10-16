@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 
 import NavBarPage from "../NavBarPage/NavBarPage";
-import "./usoDeSQl.css"
+import "./usoDeSQL.css";
 
 import hljs from "highlight.js";
 import "highlight.js/styles/devibeans.css";
