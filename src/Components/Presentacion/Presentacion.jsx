@@ -11,7 +11,7 @@ function Presentacion() {
         <div className='ml-5 mr-5'>
 
           <div className='mb-5'>
-            <h1 className="titulo text-4xl font-bold ">Felipe Alvarez</h1>
+            <h1 className="nombre text-2xl">Felipe Alvarez</h1>
             <div className='flex flex-row'>
               <h2 className="subtitulo text-xl">QA Tester Manual | Front-End Developer</h2>
               <img width="30" height="30" className='ml-2' src="https://img.icons8.com/emoji/48/000000/man-technologyst.png" alt="man-technologyst" />
@@ -19,9 +19,9 @@ function Presentacion() {
           </div>
 
           <div className='flex flex-col'>
-            <h3 className="titulo-pregunta color-text">¿Quién soy? ¿Cuáles son mis intereses?</h3>
+            <h3 className="titulo-pregunta color-text text-xl">¿Quién soy? ¿Cuáles son mis intereses?</h3>
 
-            <p className='sobre-mi'>Soy una persona <b className='font-b'>apasionada por la tecnología</b>, actualmente trabajando como <b className='font-b'>QA Tester Manual</b> y con habilidades de <b className='font-b'>Frontend Developer</b>.
+            <p className='sobre-mi'>Soy una persona <strong className='font-medium'>apasionada por la tecnología</strong>, actualmente trabajando como <strong className='font-medium'>QA Tester Manual</strong> y con habilidades de <strong className='font-medium'>Frontend Developer</strong>.
             </p>
             
             <p className='sobre-mi'>
@@ -29,7 +29,7 @@ function Presentacion() {
             </p>
 
             <p className='sobre-mi'>
-              Tengo <b className='font-b'>habilidades técnicas y creativas</b>, me considero una persona trabajadora y responsable. He realizado proyectos personales para demostrar mis conocimientos en la parte de Testing y de desarrollador.</p>
+              Tengo <strong className='font-medium'>habilidades técnicas y creativas</strong>, me considero una persona trabajadora y responsable. He realizado proyectos personales para demostrar mis conocimientos en la parte de Testing y de desarrollador.</p>
           </div>
 
           <VerCV />

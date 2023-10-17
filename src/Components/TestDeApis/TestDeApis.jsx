@@ -16,7 +16,7 @@ function TestDeApis() {
     <>
         <NavBarPage />
         <main id="#" className="mx-48 my-10">
-            <h2 className="text-4xl font-semibold mb-2">Test de API's</h2>
+            <h2 className="text-3xl font-semibold mb-2">Test de API's</h2>
             <div className="my-8">
                 <p className="my-4 text-xl">1.</p>
                 <p className="text-lg my-4">API: <a href="https://digidates.de/api/v1/week?date=2023-04-13" target="_blank" rel="noreferrer"><u className="text-cyan-400 hover:text-cyan-500">https://digidates.de/api/v1/week?date=2023-04-13</u></a></p>
@@ -42,7 +42,7 @@ function TestDeApis() {
           `}
                     </code>
                 </pre>
-                <p className="mt-2">Este código verifica si el atributo <strong>week</strong> en la respuesta de la API corresponde a la semana 35 y muestra en la consola si corresponde o no. Si el valor del atributo <strong>week</strong> no es 35, la prueba fallará y mostrará un mensaje de error.</p>
+                <p className="mt-2">Este código verifica si el atributo <b className="font-medium">week</b> en la respuesta de la API corresponde a la semana 35 y muestra en la consola si corresponde o no. Si el valor del atributo <b className="font-medium">week</b> no es 35, la prueba fallará y mostrará un mensaje de error.</p>
             </div>
 
             <div className="my-8">
@@ -111,7 +111,7 @@ pm.test("Tiempo de respuesta < 1600", function () {
           `}
                     </code>
                 </pre>
-                <p className="mt-2">Esta prueba verifica si la respuesta de la API contiene el valor de <strong>checkdate</strong> igual a <strong>false</strong> y muestra en la consola si la fecha extraída de los parámetros es falsa o no. Si <strong>checkdate</strong> no es <strong>false</strong>, la prueba fallará.</p>
+                <p className="mt-2">Esta prueba verifica si la respuesta de la API contiene el valor de <b className="font-medium">checkdate</b> igual a <b className="font-medium">false</b> y muestra en la consola si la fecha extraída de los parámetros es falsa o no. Si <b className="font-medium">checkdate</b> no es <b className="font-medium">false</b>, la prueba fallará.</p>
                 <p>Como se ve abajo, la prueba pasa ✅</p>
             </div>
 
@@ -141,7 +141,7 @@ pm.test("Tiempo de respuesta < 1600", function () {
           `}
                     </code>
                 </pre>
-                <p className="mt-2">Esta prueba verifica si el atributo <strong>barrio</strong> en la respuesta de la API es igual a <strong>Retiro</strong> y muestra en la consola si el barrio es "Retiro" o no. Si el barrio no es "Retiro", la prueba fallará y mostrará un mensaje de error.</p>
+                <p className="mt-2">Esta prueba verifica si el atributo <b className="font-medium">barrio</b> en la respuesta de la API es igual a <b className="font-medium">Retiro</b> y muestra en la consola si el barrio es "Retiro" o no. Si el barrio no es "Retiro", la prueba fallará y mostrará un mensaje de error.</p>
                 <p>En este caso, el resultado es correcto, por lo tanto, la prueba pasa ✅</p>
             </div>
         </main>

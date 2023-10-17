@@ -1,10 +1,9 @@
 .foto-perfil {
     width: 25%;
-
 }
 
 .subtitulo,
-.font-b {
+.nombre {
     font-weight: 600;
 }
 
@@ -12,7 +11,6 @@
 .titulo-pregunta {
     color: #35bcf1;
     font-weight: 600;
-    font-size: 1.5em;
     line-height: 1.3;
 }
 

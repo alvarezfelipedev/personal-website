@@ -1,6 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import "./practicaQA.css";
-
 import BtnVerMas from "../../ToolsComponents/BtnVerMas/BtnVerMas";
 import Linea from "../../ToolsComponents/Linea/Linea";
 
@@ -10,7 +8,7 @@ function PracticasDeQA() {
   return (
     <section id="practica-qa" className="mb-10">
 
-      <h2 className="titulo text-2xl font-medium">Practicas como QA Manual</h2>
+      <h2 className="titulo">Practicas como QA Manual</h2>
       <Linea />
 
       <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-y-12 p-2">

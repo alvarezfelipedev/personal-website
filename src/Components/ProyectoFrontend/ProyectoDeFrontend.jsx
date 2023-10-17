@@ -13,7 +13,7 @@ import Linea from "../../ToolsComponents/Linea/Linea";
 function ProyectoDeFrontend() {
   return (
     <section id="proyecto-front-end" className="mb-16">
-      <h2 className="text-2xl font-medium">Proyectos de Desarrollo Frontend</h2>
+      <h2 className="titulo">Proyectos de Desarrollo Frontend</h2>
       <Linea />
 
       <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-y-12 p-2">
@@ -26,9 +26,9 @@ function ProyectoDeFrontend() {
           </a>
           <div className="p-5">
             <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
-              <h5 className="mb-2 text-xl tracking-tight dark:text-white">
+              <h3 className="mb-2 text-xl tracking-tight dark:text-white">
                 Adidas Lite
-              </h5>
+              </h3>
             </a>
 
             <div>
@@ -38,7 +38,7 @@ function ProyectoDeFrontend() {
               <BadgeCSS />
             </div>
 
-            <p className="font-normal text-gray-700 dark:text-gray-400 h-32">
+            <p className="font-normal text-gray-700 dark:text-gray-100 h-32">
               Permite ver todos los productos disponibles, filtrar por tipo, acceder al detalle de cada uno, mostrando una descripción, junto con su valor y stock disponible, posibilitando agregarlo al carrito y realizar un pedido.
             </p>
 
@@ -78,9 +78,9 @@ function ProyectoDeFrontend() {
           </a>
           <div className="p-5">
             <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
-              <h5 className="mb-2 text-xl tracking-tight dark:text-white">
+              <h3 className="mb-2 text-xl tracking-tight dark:text-white">
                 M&C Inmobiliaria
-              </h5>
+              </h3>
             </a>
 
             <div>
@@ -128,9 +128,9 @@ function ProyectoDeFrontend() {
           </a>
           <div className="p-5">
             <a href="#">
-              <h5 className="mb-2 text-xl tracking-tight dark:text-white">
+              <h3 className="mb-2 text-xl tracking-tight dark:text-white">
                 Seguri Pro Servicios
-              </h5>
+              </h3>
             </a>
 
             <div>

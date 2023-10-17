@@ -17,7 +17,7 @@ function UsoDeSQL() {
         <>
             <NavBarPage />
             <main id="#" className="mx-48 my-10">
-                <h2 className="text-4xl font-semibold mb-2">Uso de SQL</h2>
+                <h2 className="text-3xl font-semibold mb-2">Uso de SQL</h2>
                 <div className="my-8">
                     <p className="my-4 text-xl"><u>Consigna:</u></p>
 

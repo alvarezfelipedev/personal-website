@@ -11,7 +11,7 @@ import azure from "../../assets/Icons-SVG/azure.svg";
 function Skills() {
   return (
     <section id="skills" className="mb-7 ">
-      <h2 className="titulo text-2xl font-medium">Skills</h2>
+      <h2 className="titulo">Skills</h2>
       <Linea />
       <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] p-2">
 

@@ -6,7 +6,7 @@ function CasosDePrueba() {
         <NavBarPage />
         <main className="mx-48 my-10">
             <div>
-                <h1 className="text-4xl font-semibold mb-2">
+                <h1 className="text-3xl font-semibold mb-2">
                     Ejemplos de Casos de Prueba
                 </h1>
                 <h2 className="text-lg">
@@ -23,19 +23,19 @@ function CasosDePrueba() {
                         <u>Primer caso de prueba:</u>
                     </h3>
                     <p className="my-2">
-                        <strong className="font-medium">Precondiciones:</strong> Acceso a la
+                        <b className="font-medium">Precondiciones:</b> Acceso a la
                         página web en funcionamiento.
                     </p>
                     <p className="my-2">
-                        <strong className="font-medium">Identificador:</strong> 01
+                        <b className="font-medium">Identificador:</b> 01
                     </p>
                     <p className="my-2">
-                        <strong className="font-medium">Descripcion:</strong> Comprobar que
+                        <b className="font-medium">Descripcion:</b> Comprobar que
                         el campo Name, Price y Date Stocked una vez completados se agreguen
                         correctamente a la categoría Products.
                     </p>
                     <p className="mt-2">
-                        <strong className="font-medium">Pasos:</strong>
+                        <b className="font-medium">Pasos:</b>
                     </p>
                     <ol className="ml-8">
                         <li>1. Hacer click en el input “Name”</li>
@@ -50,7 +50,7 @@ function CasosDePrueba() {
                         </li>
                     </ol>
                     <p className="mt-2">
-                        <strong className="font-medium">Datos de Test:</strong>
+                        <b className="font-medium">Datos de Test:</b>
                     </p>
                     <ol className="ml-8">
                         <li>Name: Arroz</li>
@@ -58,20 +58,20 @@ function CasosDePrueba() {
                         <li>Date Stocked: 05/06/2023</li>
                     </ol>
                     <p className="my-2">
-                        <strong className="font-medium">Resultados esperados:</strong> Que
+                        <b className="font-medium">Resultados esperados:</b> Que
                         se agregue correctamente en: https://commitquality.com/ los datos
                         enviados.
                     </p>
                     <p className="my-2">
-                        <strong className="font-medium">Resultados obtenidos:</strong> Se
+                        <b className="font-medium">Resultados obtenidos:</b> Se
                         agregó correctamente en la Categoría de Products con los datos
                         enviados por los inputs.
                     </p>
                     <p className="my-2">
-                        <strong className="font-medium">PASS/FAIL</strong> PASS
+                        <b className="font-medium">PASS/FAIL</b> PASS
                     </p>
                     <p className="my-2">
-                        <strong className="font-medium">Incidentes:</strong> No hubo ningún
+                        <b className="font-medium">Incidentes:</b> No hubo ningún
                         inconveniente.
                     </p>
                 </div>
@@ -82,19 +82,19 @@ function CasosDePrueba() {
                     <u>Segundo caso de prueba:</u>
                 </h3>
                 <p className="my-2">
-                    <strong className="font-medium">Precondiciones:</strong> Acceso a la
+                    <b className="font-medium">Precondiciones:</b> Acceso a la
                     página web y datos a completar en los campos “Name” y “Price” validos
                     y en “Date Stocked” dato invalido.
                 </p>
                 <p className="my-2">
-                    <strong className="font-medium">Identificador:</strong> 02
+                    <b className="font-medium">Identificador:</b> 02
                 </p>
                 <p className="my-2">
-                    <strong className="font-medium">Descripcion:</strong> Comprobar que no
+                    <b className="font-medium">Descripcion:</b> Comprobar que no
                     se agreguen productos con fechas de stock inválidas.
                 </p>
                 <p className="mt-2">
-                    <strong className="font-medium">Pasos:</strong>
+                    <b className="font-medium">Pasos:</b>
                 </p>
                 <ol className="ml-8">
                     <li>1. Hacer click en el input “Name”</li>
@@ -109,7 +109,7 @@ function CasosDePrueba() {
                     </li>
                 </ol>
                 <p className="mt-2">
-                    <strong className="font-medium">Datos de Test:</strong>
+                    <b className="font-medium">Datos de Test:</b>
                 </p>
                 <ol className="ml-8">
                     <li>Name: Polenta</li>
@@ -117,21 +117,21 @@ function CasosDePrueba() {
                     <li>Date Stocked: 22/08/2024</li>
                 </ol>
                 <p className="my-2">
-                    <strong className="font-medium">Resultados esperados:</strong> Que
+                    <b className="font-medium">Resultados esperados:</b> Que
                     cuando se coloque una fecha inválida en el campo “Date Stocked” y
                     posteriormente se intente agregar en la Categoría Products, no se
                     permita. Que salte una alerta con el error.
                 </p>
                 <p className="my-2">
-                    <strong className="font-medium">Resultados obtenidos:</strong> No
+                    <b className="font-medium">Resultados obtenidos:</b> No
                     permitió que se agreguen productos con fechas inválidas y saltó una
                     alerta.
                 </p>
                 <p className="my-2">
-                    <strong className="font-medium">PASS/FAIL</strong> PASS
+                    <b className="font-medium">PASS/FAIL</b> PASS
                 </p>
                 <p className="my-2">
-                    <strong className="font-medium">Incidentes:</strong> Ninguno.
+                    <b className="font-medium">Incidentes:</b> Ninguno.
                 </p>
             </div>
 
@@ -140,19 +140,19 @@ function CasosDePrueba() {
                     <u>Tercer caso de prueba:</u>
                 </h3>
                 <p className="my-2">
-                    <strong className="font-medium">Precondiciones:</strong> Acceso a la
+                    <b className="font-medium">Precondiciones:</b> Acceso a la
                     página web en funcionamiento y datos a completar en cada uno de los
                     inputs.
                 </p>
                 <p className="my-2">
-                    <strong className="font-medium">Identificador:</strong> 03
+                    <b className="font-medium">Identificador:</b> 03
                 </p>
                 <p className="my-2">
-                    <strong className="font-medium">Descripcion:</strong> Verificar que en
+                    <b className="font-medium">Descripcion:</b> Verificar que en
                     el input price solamente se permita escribir valores numéricos.
                 </p>
                 <p className="mt-2">
-                    <strong className="font-medium">Pasos:</strong>
+                    <b className="font-medium">Pasos:</b>
                 </p>
                 <ol className="ml-8">
                     <li>1. Hacer click en el input “Name”</li>
@@ -167,7 +167,7 @@ function CasosDePrueba() {
                     </li>
                 </ol>
                 <p className="mt-2">
-                    <strong className="font-medium">Datos de Test:</strong>
+                    <b className="font-medium">Datos de Test:</b>
                 </p>
                 <ol className="ml-8">
                     <li>Name: Fideos</li>
@@ -175,19 +175,19 @@ function CasosDePrueba() {
                     <li>Date Stocked: 10/04/2023</li>
                 </ol>
                 <p className="my-2">
-                    <strong className="font-medium">Resultados esperados:</strong>{" "}
+                    <b className="font-medium">Resultados esperados:</b>{" "}
                     Comprobar que en el input Price solamente permita escribir valores
                     numéricos.
                 </p>
                 <p className="my-2">
-                    <strong className="font-medium">Resultados obtenidos:</strong> No
+                    <b className="font-medium">Resultados obtenidos:</b> No
                     permite escribir valores que no sean numéricos.
                 </p>
                 <p className="my-2">
-                    <strong className="font-medium">PASS/FAIL</strong> PASS
+                    <b className="font-medium">PASS/FAIL</b> PASS
                 </p>
                 <p className="my-2">
-                    <strong className="font-medium">Incidentes:</strong> Ninguno.
+                    <b className="font-medium">Incidentes:</b> Ninguno.
                 </p>
             </div>
 
