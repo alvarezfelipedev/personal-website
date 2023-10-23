@@ -14,7 +14,6 @@ function Skills() {
       <h2 className="titulo">Skills</h2>
       <Linea />
       <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] p-2">
-
         <div className="card">
           <div className="mr-2">
             <img width="30" height="30" src={react} alt="Logo de React" />

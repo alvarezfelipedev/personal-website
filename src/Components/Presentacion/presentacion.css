@@ -2,6 +2,18 @@
     width: 25%;
 }
 
+@media screen and (max-width: 640px) {
+    .foto-perfil{
+        width: 40%;
+    }
+
+    .subtitulo{
+        text-wrap: balance;
+    }
+
+    
+}
+
 .subtitulo,
 .nombre {
     font-weight: 600;
@@ -12,6 +24,7 @@
     color: #35bcf1;
     font-weight: 600;
     line-height: 1.3;
+    
 }
 
 .sobre-mi {

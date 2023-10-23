@@ -13,11 +13,11 @@ import Linea from "../../ToolsComponents/Linea/Linea";
 function ProyectoDeFrontend() {
   return (
     <section id="proyecto-front-end" className="mb-16">
-      <h2 className="titulo">Proyectos de Desarrollo Frontend</h2>
+      <h2 className="titulo">Proyectos de Desarrollo Front-End</h2>
       <Linea />
 
       <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-y-12 p-2">
-        <div className="cardProyecto border shadow-lg border-gray-800  ">
+        <div className="cardProyecto border shadow-lg border-gray-800">
           <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
             <img
               src="https://i.ibb.co/D9xtbJ5/e-commerce.webp"
@@ -25,24 +25,24 @@ function ProyectoDeFrontend() {
             />
           </a>
           <div className="p-5">
-            <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
-              <h3 className="mb-2 text-xl tracking-tight dark:text-white">
-                Adidas Lite
-              </h3>
-            </a>
-
             <div>
               <BadgeReact />
               <BadgeFirebase />
               <BadgeBootstrap />
               <BadgeCSS />
             </div>
+            <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
+              <h3 className="mb-2 text-xl tracking-tight dark:text-white">
+                Adidas Lite
+              </h3>
+            </a>
 
-            <p className="font-normal text-gray-700 dark:text-gray-100 h-32">
+
+            <p className="font-normal text-gray-700 dark:text-gray-400 h-32">
               Permite ver todos los productos disponibles, filtrar por tipo, acceder al detalle de cada uno, mostrando una descripción, junto con su valor y stock disponible, posibilitando agregarlo al carrito y realizar un pedido.
             </p>
 
-            <div>
+            <div className="">
               <div className="flex justify-between mt-5">
                 <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
                   <button className="btn flex items-center">
@@ -77,21 +77,21 @@ function ProyectoDeFrontend() {
             />
           </a>
           <div className="p-5">
-            <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
-              <h3 className="mb-2 text-xl tracking-tight dark:text-white">
-                M&C Inmobiliaria
-              </h3>
-            </a>
-
             <div>
               <BadgeHTML />
               <BadgeBootstrap />
               <BadgeSass />
               <BadgeCSS />
             </div>
+            <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
+              <h3 className="mb-2 text-xl tracking-tight dark:text-white">
+                M&C Inmobiliaria
+              </h3>
+            </a>
+
 
             <p className="font-normal text-gray-700 dark:text-gray-400 h-32">
-              Muestra los hogares en venta disponibles de forma rápida, ubicación del local, sobre personal y formas de ponerse en contacto.
+              Muestra los inmuebles en venta disponibles de forma rápida, ubicación de la inmobiliaria, sobre el personal y las opciones para ponerse en contacto.
               Se realizó en Figma la maquetación, donde se incluyó la estructura, tipografías, imágenes y colores.
             </p>
 
@@ -127,20 +127,20 @@ function ProyectoDeFrontend() {
             />
           </a>
           <div className="p-5">
+            <div>
+              <BadgeAstro />
+              <BadgeTailwind />
+              <BadgeCSS />
+            </div>
             <a href="#">
               <h3 className="mb-2 text-xl tracking-tight dark:text-white">
                 Seguri Pro Servicios
               </h3>
             </a>
 
-            <div>
-              <BadgeAstro />
-              <BadgeTailwind />
-              <BadgeCSS />
-            </div>
 
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              Diseñado para una empresa de Seguridad Informática que quiere mostrar los servicios que ofrece, conocer más sobre su empresa y las devoluciones de sus clientes.
+              Diseñado para una empresa de Seguridad Informática que quiere mostrar los servicios que ofrece, dar a conocer más sobre su empresa y las opiniones de sus clientes.
             </p>
 
             <div className="flex justify-between mt-5">

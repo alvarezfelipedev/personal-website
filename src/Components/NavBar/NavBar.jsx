@@ -28,9 +28,9 @@ function NavBar() {
   }, []);
 
   return (
-    <main className="my-5">
-      <nav className="flex justify-end">
-        <ul className='flex flex-row'>
+    <main className="my-10 md:my-5">
+      <nav className="flex md:justify-end">
+        <ul className='flex flex-col md:flex-row'>
           <li>
             <a href="#skills" className="menu p-3">Skills</a>
           </li>
@@ -46,7 +46,7 @@ function NavBar() {
         </ul>
       </nav>
 
-      <div className="flex flex-row justify-end mr-12">
+      <div className="">
         <a id="scroll-up" className="scroll-up" href="#inicio" onClick={() => scrollToTop()} style={{ display: showArrow ? 'block' : 'none' }}>
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 0h24v24H0z" fill="none"></path>

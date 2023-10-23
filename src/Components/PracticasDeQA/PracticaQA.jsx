@@ -17,7 +17,7 @@ function PracticasDeQA() {
           <Link to={'/casosdeprueba'} className="mb-2 text-xl tracking-tight text-gray-900 dark:text-white">Casos de Prueba</Link>
 
           <div className="h-28">
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">En esta sección, encontrarás pruebas que están diseñada para validar distintos aspectos y escenarios, garantizando un rendimiento confiable y consistente en cada proyecto.</p>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">En esta sección, encontrarás pruebas que están diseñadas para validar distintos aspectos y escenarios, garantizando un rendimiento confiable en el sitio web.</p>
           </div>
 
           <Link to={'/casosdeprueba'}>
@@ -44,7 +44,7 @@ function PracticasDeQA() {
           <Link to={'/usodesql'} className="mb-2 text-xl tracking-tight text-gray-900 dark:text-white">Uso de SQL</Link>
 
           <div className="h-28">
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">En esta sección, muesto mi manejo en el lenguaje SQL a través de una serie de ejercicios prácticos. Cada ejercicio aborda diferentes aspectos de la consulta a la bases de datos.</p>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">En esta sección, muestro mi manejo en el lenguaje SQL a través de una serie de ejercicios prácticos. Cada ejercicio aborda diferentes aspectos de la consulta a la base de datos.</p>
           </div>
 
           <Link to={'/usodesql'}>

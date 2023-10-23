@@ -2,7 +2,7 @@ import "./linea.css"
 
 function Linea (){
     return(
-        <div className="lineaa mt-2 mb-4"></div>
+        <div className="linea mt-2 mb-4"></div>
     )
 }
 

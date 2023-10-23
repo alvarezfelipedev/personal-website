@@ -16,7 +16,7 @@ function Contacto() {
         </button>
       </a>
 
-      <a target="_blank" href="https://www.linkedin.com/in/nfelipealvarez/" rel="noreferrer">
+      <a target="_blank" href="https://www.linkedin.com/in/alvarezfelipe/" rel="noreferrer">
         <button className="Btn mx-3">
           <span className="svgContainer">
             <img width="35" height="35" src={linkedin} alt="Logo de LinkedIn, hipervinculo hacia mi perfil de LinkedIn" />
@@ -27,7 +27,7 @@ function Contacto() {
       <a target="_blank" href="https://github.com/alvarezfelipedev" rel="noreferrer">
         <button className="Btn mx-3">
           <span className="svgContainer">
-            <img width="30" height="30" src={github} alt="Logo de GitHub, hipervinculo hacia mi perfil en GitHub" />
+            <img width="30" height="30" src={github} alt="Logo de GitHub, hipervinculo hacia mi perfil de GitHub" />
           </span>
         </button>
       </a>
