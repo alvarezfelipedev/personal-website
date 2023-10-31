@@ -6,7 +6,7 @@ import fotoDePerfil from '../../assets/fotoDePerfil.webp';
 function Presentacion() {
   return (
     <section id="presentacion">
-      <div className="mb-10 items-center md:flex">
+      <div className="mb-10 md:flex">
         <img className='ml-1 mb-5 foto-perfil md:mt-20 ' src={fotoDePerfil} alt="foto de perfil" />
         <div className='md:ml-5 md:mr-5'>
 

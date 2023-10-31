@@ -6,7 +6,7 @@ import linkedin from "../../assets/Icons-SVG/linkedin.svg"
 
 function Contacto() {
   return (
-    <section id="contacto" className="flex flex-row justify-center mb-10">
+    <section id="contacto" className="flex flex-row justify-center mb-10 ">
 
       <a target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=n.felialvarez@gmail.com" rel="noreferrer">
         <button className="Btn mx-3">

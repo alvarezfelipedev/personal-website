@@ -1,12 +1,10 @@
 import "./proyectoFrontend.css";
 
-import BadgeAstro from "../../ToolsComponents/BadgeAstro/BadgeAstro";
 import BadgeFirebase from "../../ToolsComponents/BadgeFirebase/BadgeFirebase"
 import BadgeBootstrap from "../../ToolsComponents/BadgeBootstrap/BadgeBootstrap";
 import BadgeCSS from "../../ToolsComponents/BadgeCSS/BadgeCSS";
 import BadgeHTML from "../../ToolsComponents/BadgeHTML/BadgeHTML";
 import BadgeReact from "../../ToolsComponents/BadgeReact/BadgeReact";
-import BadgeTailwind from "../../ToolsComponents/BadgeTailwind/BadgeTailwind";
 import BadgeSass from "../../ToolsComponents/BadgeSass/BadgeSass";
 import Linea from "../../ToolsComponents/Linea/Linea";
 
@@ -119,47 +117,6 @@ function ProyectoDeFrontend() {
           </div>
         </div>
 
-        <div className="cardProyecto border shadow-lg border-gray-800">
-          <a href="#">
-            <img
-              src="https://i.ibb.co/s2hmN4s/seguri-Prop.webp"
-              alt="Portada del Sitio Web de Seguri Pro"
-            />
-          </a>
-          <div className="p-5">
-            <div>
-              <BadgeAstro />
-              <BadgeTailwind />
-              <BadgeCSS />
-            </div>
-            <a href="#">
-              <h3 className="mb-2 text-xl tracking-tight dark:text-white">
-                Seguri Pro Servicios
-              </h3>
-            </a>
-
-
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              Diseñado para una empresa de Seguridad Informática que quiere mostrar los servicios que ofrece, dar a conocer más sobre su empresa y las opiniones de sus clientes.
-            </p>
-
-            <div className="flex justify-between mt-5">
-              <a href="" target="_blank" rel="noreferrer">
-                <button className="btn flex items-center">
-                  <span className="hover-underline-animation">Despliegue</span>
-                </button>
-              </a>
-
-              <a href="https://github.com/alvarezfelipedev/astro-seguriPro"
-                target="_blank" rel="noreferrer">
-                <button className="btn flex items-center">
-                  <span className="hover-underline-animation">Repositorio</span>
-                </button>
-              </a>
-
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
