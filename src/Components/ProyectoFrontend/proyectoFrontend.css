@@ -5,11 +5,13 @@
 
 @media screen and (max-width: 640px) {
     .cardProyecto{
-        width: 85%;
+        width: 100%;
     }
-
-    
+    .descripcion{
+        text-wrap: balance;
+    }
 }
+
 .btn {
     border: none;
     background: none;

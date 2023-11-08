@@ -37,3 +37,12 @@
             #1094c9 94.3%);
     transition: all 0.4s;
 }
+
+@media screen and (max-width: 640px) {
+    .button{
+        width: 100%;
+        background-color: #2d3c49;
+    }
+
+    
+}

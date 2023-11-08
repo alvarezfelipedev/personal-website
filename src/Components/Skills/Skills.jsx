@@ -13,9 +13,9 @@ function Skills() {
     <section id="skills" className="mb-7 ">
       <h2 className="titulo">Skills</h2>
       <Linea />
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] p-2">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] my-4 md:p-2">
         <div className="card">
-          <div className="mr-2">
+          <div className="mr-2 ">
             <img width="30" height="30" src={react} alt="Logo de React" />
           </div>
           <div className="titulo-lenguaje">React</div>

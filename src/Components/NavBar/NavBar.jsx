@@ -28,7 +28,7 @@ function NavBar() {
   }, []);
 
   return (
-    <main className="my-10 md:my-5">
+    <main className="my-10 md:my-5 hidden md:block">
       <nav className="flex md:justify-end">
         <ul className='flex flex-col md:flex-row'>
           <li>

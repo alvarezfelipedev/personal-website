@@ -14,7 +14,7 @@ function ProyectoDeFrontend() {
       <h2 className="titulo">Proyectos de Desarrollo Front-End</h2>
       <Linea />
 
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-y-12 p-2">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-y-12 md:p-2 my-4">
         <div className="cardProyecto border shadow-lg border-gray-800">
           <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
             <img
@@ -36,11 +36,11 @@ function ProyectoDeFrontend() {
             </a>
 
 
-            <p className="font-normal text-gray-700 dark:text-gray-400 h-32">
+            <p className="font-normal text-gray-700 dark:text-gray-400 descripcion  ">
               Permite ver todos los productos disponibles, filtrar por tipo, acceder al detalle de cada uno, mostrando una descripción, junto con su valor y stock disponible, posibilitando agregarlo al carrito y realizar un pedido.
             </p>
 
-            <div className="">
+            <div className="flex ">
               <div className="flex justify-between mt-5">
                 <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
                   <button className="btn flex items-center">
@@ -88,7 +88,7 @@ function ProyectoDeFrontend() {
             </a>
 
 
-            <p className="font-normal text-gray-700 dark:text-gray-400 h-32">
+            <p className="font-normal text-gray-700 dark:text-gray-400 h-32 descripcion">
               Muestra los inmuebles en venta disponibles de forma rápida, ubicación de la inmobiliaria, sobre el personal y las opciones para ponerse en contacto.
               Se realizó en Figma la maquetación, donde se incluyó la estructura, tipografías, imágenes y colores.
             </p>

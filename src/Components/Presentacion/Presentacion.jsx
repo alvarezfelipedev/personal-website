@@ -5,16 +5,16 @@ import fotoDePerfil from '../../assets/fotoDePerfil.webp';
 
 function Presentacion() {
   return (
-    <section id="presentacion">
+    <section id="presentacion" className='flex justify-center text-left'>
       <div className="mb-10 md:flex">
-        <img className='ml-1 mb-5 foto-perfil md:mt-20 ' src={fotoDePerfil} alt="foto de perfil" />
+        <img className='ml-1 mt-10 mb-5 foto-perfil' src={fotoDePerfil} alt="foto de perfil" />
         <div className='md:ml-5 md:mr-5'>
 
           <div className='mb-5'>
             <h1 className="nombre text-2xl">Felipe Alvarez</h1>
-            <div className='flex md:flex-row'>
+            <div className='flex md:flex-row items-center'>
               <h2 className="subtitulo text-xl">QA Tester Manual | Front-End Developer </h2>
-              <img width="30" height="30" className='md:ml-2' src="https://img.icons8.com/emoji/48/000000/man-technologyst.png" alt="man-technologyst" />
+              <img width="30" height="30" className='md:ml-2 h-max' src="https://img.icons8.com/emoji/48/000000/man-technologyst.png" alt="man-technologyst" />
             </div>
           </div>
 
@@ -23,7 +23,7 @@ function Presentacion() {
 
             <p className='sobre-mi'>Soy una persona <strong className='font-medium'>apasionada por la tecnología</strong>, actualmente trabajando como <strong className='font-medium'>QA Tester</strong> y con habilidades de <strong className='font-medium'>Front-End Developer</strong>.
             </p>
-            
+
             <p className='sobre-mi'>
               Esta combinación de roles me permite desarrollar aplicaciones más integrales y con un gran nivel de calidad.
             </p>

@@ -15,7 +15,7 @@ function Home() {
                 <Skills />
                 <PracticasDeQA />
                 <ProyectoDeFrontend />
-                <Contacto />
+                <Contacto/>
                 <Footer />
             </div>
         </>
