@@ -35,13 +35,15 @@ function ProyectoDeFrontend() {
               </h3>
             </a>
 
+            <div className="md:mb-10">
 
-            <p className="font-normal text-gray-700 dark:text-gray-400 descripcion  ">
+            <p className="font-normal text-gray-700 dark:text-gray-400 descripcion ">
               Permite ver todos los productos disponibles, filtrar por tipo, acceder al detalle de cada uno, mostrando una descripción, junto con su valor y stock disponible, posibilitando agregarlo al carrito y realizar un pedido.
             </p>
+            </div>
 
             <div className="flex ">
-              <div className="flex justify-between mt-5">
+              <div className="flex justify-between">
                 <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
                   <button className="btn flex items-center">
                     <span className="hover-underline-animation">Despliegue</span>
@@ -87,11 +89,15 @@ function ProyectoDeFrontend() {
               </h3>
             </a>
 
-
+          <div className="">
+            
             <p className="font-normal text-gray-700 dark:text-gray-400 h-32 descripcion">
               Muestra los inmuebles en venta disponibles de forma rápida, ubicación de la inmobiliaria, sobre el personal y las opciones para ponerse en contacto.
               Se realizó en Figma la maquetación, donde se incluyó la estructura, tipografías, imágenes y colores.
             </p>
+          </div>
+
+            <div className="flex mt-7 md:mt-0">
 
             <div className="flex justify-between mt-5">
               <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
@@ -113,6 +119,7 @@ function ProyectoDeFrontend() {
                   <span className="hover-underline-animation">Repositorio</span>
                 </button>
               </a>
+            </div>
             </div>
           </div>
         </div>

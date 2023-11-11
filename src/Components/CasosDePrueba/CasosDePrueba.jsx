@@ -4,7 +4,7 @@ function CasosDePrueba() {
     return (
     <>
         <NavBarPage />
-        <main className="mx-48 my-10">
+        <main className="mx-3 md:mx-48">
             <div>
                 <h1 className="text-3xl font-semibold mb-2">
                     Ejemplos de Casos de Prueba

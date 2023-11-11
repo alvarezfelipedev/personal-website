@@ -15,7 +15,7 @@ function TestDeApis() {
     return (
     <>
         <NavBarPage />
-        <main id="#" className="mx-48 my-10">
+        <main id="#" className="mx-3 md:mx-48">
             <h2 className="text-3xl font-semibold mb-2">Test de API's</h2>
             <div className="my-8">
                 <p className="my-4 text-xl">1.</p>
