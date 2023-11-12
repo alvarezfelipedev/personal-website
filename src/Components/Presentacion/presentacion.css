@@ -1,14 +1,17 @@
 .foto-perfil {
     width: 30%;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 640px) {
     .foto-perfil{
-        width: 95%;
+        width: 85%;
+        display: block;
+        margin: 1.5rem;
     }
 
-    .subtitulo{
-        text-wrap: balance;
+    .sobre-mi{
+        text-align: start;
     }
 
     

@@ -30,7 +30,7 @@ function ProyectoDeFrontend() {
               <BadgeCSS />
             </div>
             <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
-              <h3 className="mb-2 text-xl tracking-tight dark:text-white">
+              <h3 className="text-xl tracking-tight dark:text-white">
                 Adidas Lite
               </h3>
             </a>
@@ -84,7 +84,7 @@ function ProyectoDeFrontend() {
               <BadgeCSS />
             </div>
             <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
-              <h3 className="mb-2 text-xl tracking-tight dark:text-white">
+              <h3 className="text-xl tracking-tight dark:text-white">
                 M&C Inmobiliaria
               </h3>
             </a>
