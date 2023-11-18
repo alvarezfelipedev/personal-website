@@ -16,15 +16,15 @@ function UsoDeSQL() {
     return (
         <>
             <NavBarPage />
-            <main id="#" className="mx-3 md:mx-48">
+            <main id="#" className="mx-2 md:mx-8 xl:mx-48">
                 <h2 className="text-3xl font-semibold mb-2">Uso de SQL</h2>
                 <div className="my-8">
-                    <p className="my-4 text-xl"><u>Consigna:</u></p>
+                    <p className="my-4 text-xl text-cyan-400 "><u>Consigna:</u></p>
 
                     <p className="my-4">1. En nuestra aplicación, necesitamos crear una tabla de historial de compras en SQL. A continuación, se presenta la estructura de la tabla llamada "historial" con las siguientes columnas: "nrocliente", "apellidocliente", "nombrecliente", "idcompra", "fecha", "monto" y "nrosucursal". La columna "nrocliente" se asignará como clave primaria, y la columna "nrosucursal" será una clave foránea que hará referencia a la columna "idsucursal" de una tabla existente de sucursales.</p>
                     <p>Para probar la tabla, puedes ejecutar una consulta SQL que agrupe los datos por "nrocliente" y muestre los campos "nrocliente" y "monto". La consulta debe ordenar los resultados en orden descendente según el campo "monto".</p>
 
-                    <p className="my-4 text-xl"><u>Resolución:</u></p>
+                    <p className="my-4 text-xl text-cyan-400 "><u>Resolución:</u></p>
 
                     <pre>
                         <code className="language-javascript code mt-2">
@@ -65,7 +65,7 @@ ORDER BY monto DESC;
                 </div>
 
                 <div className="my-8">
-                    <p className="my-4 text-xl"><u>Consigna:</u></p>
+                    <p className="my-4 text-xl text-cyan-400 "><u>Consigna:</u></p>
 
                     <p className="my-2">2. Mediante la siguiente tabla de SQL. Averigua:</p>
                     <ol className="ml-8">
@@ -102,7 +102,7 @@ VALUES
                         </code>
                     </pre>
 
-                    <p className="mt-6 text-xl"><u>Resolución:</u></p>
+                    <p className="mt-6 text-xl text-cyan-400 "><u>Resolución:</u></p>
 
                     <div className="my-4">
                         <p>1. Cantidad de empleados:</p>

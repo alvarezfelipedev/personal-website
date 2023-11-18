@@ -23,7 +23,7 @@ function Contacto() {
           </span>
         </button>
       </a>
-      
+
       <a target="_blank" href="https://github.com/alvarezfelipedev" rel="noreferrer">
         <button className="Btn mx-3">
           <span className="svgContainer">

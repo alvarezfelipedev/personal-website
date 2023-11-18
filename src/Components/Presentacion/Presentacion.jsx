@@ -7,13 +7,12 @@ function Presentacion() {
   return (
     <section id="presentacion" className='flex justify-center text-left'>
       <div className="mb-10 md:flex">
-          <img className='items-center mb-5 foto-perfil' src={fotoDePerfil} alt="foto de perfil" />
+        <img className='foto-perfil' src={fotoDePerfil} alt="foto de perfil" />
         <div className='md:ml-5 md:mr-5'>
-
           <div className='mb-5'>
-            <h1 className="nombre text-2xl">Felipe Alvarez</h1>
+            <h1 className="nombre text-2xl font-semibold">Felipe Alvarez</h1>
             <div className='flex md:flex-row items-center'>
-              <h2 className="subtitulo text-lg md:text-xl">QA Tester | Front-End Developer</h2>
+              <h2 className="subtitulo text-lg md:text-xl font-semibold">QA Tester | Front-End Developer</h2>
               <img width="30" height="30" className='ml-2 h-max' src="https://img.icons8.com/emoji/48/000000/man-technologyst.png" alt="man-technologyst" />
             </div>
           </div>

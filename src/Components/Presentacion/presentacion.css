@@ -1,36 +1,40 @@
 .foto-perfil {
     width: 30%;
+    height: fit-content;
     margin-top: 50px;
 }
-
-@media screen and (max-width: 640px) {
-    .foto-perfil{
-        width: 85%;
-        display: block;
-        margin: 1.5rem;
-    }
-
-    .sobre-mi{
-        text-align: start;
-    }
-
-    
-}
-
-.subtitulo,
-.nombre {
-    font-weight: 600;
-}
-
 
 .titulo-pregunta {
     color: #35bcf1;
     font-weight: 600;
     line-height: 1.3;
-    
 }
 
 .sobre-mi {
     line-height: 1.8rem;
     margin-top: 0.5%
+}
+
+@media screen and (max-width: 1024px) {
+    .foto-perfil {
+        width: 30%;
+        height: fit-content;
+        display: block;
+        margin: 1.5rem;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .foto-perfil {
+        width: 80%;
+        height: fit-content;
+        display: block;
+        margin: 1.5rem;
+    }
+
+    .sobre-mi {
+        text-align: start;
+    }
+
 }

@@ -3,15 +3,6 @@
     width: 95%;
 }
 
-@media screen and (max-width: 640px) {
-    .cardProyecto{
-        width: 100%;
-    }
-    .descripcion{
-        text-wrap: balance;
-    }
-}
-
 .btn {
     border: none;
     background: none;
@@ -60,4 +51,14 @@
 .btn:hover .hover-underline-animation:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+@media screen and (max-width: 640px) {
+    .cardProyecto {
+        width: 100%;
+    }
+
+    .text-wrap-balance {
+        text-wrap: balance;
+    }
 }

@@ -26,7 +26,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/usodesql',
-    element: <UsoDeSQL/>
+    element: <UsoDeSQL />
   }
 ])
 

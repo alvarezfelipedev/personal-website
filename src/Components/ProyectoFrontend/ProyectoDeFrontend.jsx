@@ -14,7 +14,7 @@ function ProyectoDeFrontend() {
       <h2 className="titulo">Proyectos de Desarrollo Front-End</h2>
       <Linea />
 
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-y-12 md:p-2 my-4">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(325px,1fr))] gap-y-12 md:p-2 my-4">
         <div className="cardProyecto border shadow-lg border-gray-800">
           <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
             <img
@@ -23,26 +23,27 @@ function ProyectoDeFrontend() {
             />
           </a>
           <div className="p-5">
+
             <div>
               <BadgeReact />
               <BadgeFirebase />
               <BadgeBootstrap />
               <BadgeCSS />
             </div>
+
             <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
-              <h3 className="text-xl tracking-tight dark:text-white">
+              <h3 className="text-xl tracking-tight mb-1">
                 Adidas Lite
               </h3>
             </a>
 
             <div className="md:mb-10">
-
-            <p className="font-normal text-gray-700 dark:text-gray-400 descripcion ">
-              Permite ver todos los productos disponibles, filtrar por tipo, acceder al detalle de cada uno, mostrando una descripción, junto con su valor y stock disponible, posibilitando agregarlo al carrito y realizar un pedido.
-            </p>
+              <p className="text-wrap-balance">
+                Permite ver todos los productos disponibles, filtrar por tipo, acceder al detalle de cada uno, mostrando una descripción, junto con su valor y stock disponible, posibilitando agregarlo al carrito y realizar un pedido.
+              </p>
             </div>
 
-            <div className="flex ">
+            <div className="flex mt-7 md:mt-0 ">
               <div className="flex justify-between">
                 <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
                   <button className="btn flex items-center">
@@ -77,49 +78,49 @@ function ProyectoDeFrontend() {
             />
           </a>
           <div className="p-5">
+
             <div>
               <BadgeHTML />
               <BadgeBootstrap />
               <BadgeSass />
               <BadgeCSS />
             </div>
+
             <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
-              <h3 className="text-xl tracking-tight dark:text-white">
+              <h3 className="text-xl tracking-tight mb-1">
                 M&C Inmobiliaria
               </h3>
             </a>
 
-          <div className="">
-            
-            <p className="font-normal text-gray-700 dark:text-gray-400 h-32 descripcion">
+
+            <p className="text-wrap-balance">
               Muestra los inmuebles en venta disponibles de forma rápida, ubicación de la inmobiliaria, sobre el personal y las opciones para ponerse en contacto.
               Se realizó en Figma la maquetación, donde se incluyó la estructura, tipografías, imágenes y colores.
             </p>
-          </div>
 
             <div className="flex mt-7 md:mt-0">
 
-            <div className="flex justify-between mt-5">
-              <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
-                <button className="btn flex items-center">
-                  <span className="hover-underline-animation">Despliegue</span>
-                </button>
-              </a>
+              <div className="flex justify-between mt-5">
+                <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
+                  <button className="btn flex items-center">
+                    <span className="hover-underline-animation">Despliegue</span>
+                  </button>
+                </a>
 
-              <a href="https://www.figma.com/file/NnoQX26vZaqmAtqmYnhDgR/Maquetaci%C3%B3n-Inmobiliaria-M%26C?type=design&node-id=1-2&mode=design"
-                target="_blank" rel="noreferrer">
-                <button className="btn flex items-center">
-                  <span className="hover-underline-animation">Maquetado</span>
-                </button>
-              </a>
+                <a href="https://www.figma.com/file/NnoQX26vZaqmAtqmYnhDgR/Maquetaci%C3%B3n-Inmobiliaria-M%26C?type=design&node-id=1-2&mode=design"
+                  target="_blank" rel="noreferrer">
+                  <button className="btn flex items-center">
+                    <span className="hover-underline-animation">Maquetado</span>
+                  </button>
+                </a>
 
-              <a href="https://github.com/alvarezfelipedev/inmobiliaria-alvarez"
-                target="_blank" rel="noreferrer">
-                <button className="btn flex items-center">
-                  <span className="hover-underline-animation">Repositorio</span>
-                </button>
-              </a>
-            </div>
+                <a href="https://github.com/alvarezfelipedev/inmobiliaria-alvarez"
+                  target="_blank" rel="noreferrer">
+                  <button className="btn flex items-center">
+                    <span className="hover-underline-animation">Repositorio</span>
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
