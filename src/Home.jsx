@@ -10,7 +10,7 @@ function Home() {
     return (
         <>
             <NavBar />
-            <div className="mx-2 md:mx-8 xl:mx-48">
+            <div className="mx-2 md:mx-48 ">
                 <Presentacion />
                 <Skills />
                 <PracticasDeQA />

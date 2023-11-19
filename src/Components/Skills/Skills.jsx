@@ -13,7 +13,7 @@ function Skills() {
     <section id="skills" className="mb-7 ">
       <h2 className="titulo">Skills</h2>
       <Linea />
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] md:p-2">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] md:p-2  md:grid-cols-3">
         <div className="card">
           <div className="mr-2 ">
             <img width="35" height="35" src={react} alt="Logo de React" />

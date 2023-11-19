@@ -17,7 +17,7 @@ function PracticasDeQA() {
           <Link to={'/casosdeprueba'} className="mb-2 text-xl tracking-tight">Casos de Prueba</Link>
 
           <div className="md:h-28">
-            <p className="mb-3 text-normal text-gray-400 text-wrap-balance">En esta sección, encontrarás pruebas que están diseñadas para validar distintos aspectos y escenarios, garantizando un rendimiento confiable en el sitio web.</p>
+            <p className="mb-3 text-normal text-gray-400">En esta sección, encontrarás pruebas que están diseñadas para validar distintos aspectos y escenarios, garantizando un rendimiento confiable en el sitio web.</p>
           </div>
 
           <Link to={'/casosdeprueba'}>
@@ -30,7 +30,7 @@ function PracticasDeQA() {
           <Link to={'/testdeapis'} className="mb-2 text-xl tracking-tight">Test de API's</Link>
 
           <div className="md:h-28">
-            <p className="mb-3 font-normal text-gray-400 text-wrap-balance">Esta sección ofrece una visión de mi habilidad en el manejo de código para Postman. Utilizando principalmente el método GET.</p>
+            <p className="mb-3 font-normal text-gray-400">Esta sección ofrece una visión de mi habilidad en el manejo de código para Postman. Utilizando principalmente el método GET.</p>
           </div>
 
           <Link to={'/testdeapis'}>
@@ -44,7 +44,7 @@ function PracticasDeQA() {
           <Link to={'/usodesql'} className=" text-xl tracking-tight">Uso de SQL</Link>
 
           <div className="md:h-28 ">
-            <p className="mb-3 font-normal text-gray-400 text-wrap-balance">En esta sección, muestro mi manejo en el lenguaje SQL a través de una serie de ejercicios prácticos. Cada ejercicio aborda diferentes aspectos de la consulta a la base de datos.</p>
+            <p className="mb-3 font-normal text-gray-400">En esta sección, muestro mi manejo en el lenguaje SQL a través de una serie de ejercicios prácticos. Cada ejercicio aborda diferentes aspectos de la consulta a la base de datos.</p>
           </div>
 
           <Link to={'/usodesql'}>

@@ -19,12 +19,12 @@ function ProyectoDeFrontend() {
           <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
             <img
               src="https://i.ibb.co/D9xtbJ5/e-commerce.webp"
-              alt="Portada del Sitio Web del e-commerce"
+              alt="Portada del Sitio Web del e-commerce" width="600" height="400"
             />
           </a>
           <div className="p-5">
 
-            <div>
+            <div className="">
               <BadgeReact />
               <BadgeFirebase />
               <BadgeBootstrap />
@@ -38,13 +38,13 @@ function ProyectoDeFrontend() {
             </a>
 
             <div className="md:mb-10">
-              <p className="text-wrap-balance">
+              <p className="">
                 Permite ver todos los productos disponibles, filtrar por tipo, acceder al detalle de cada uno, mostrando una descripción, junto con su valor y stock disponible, posibilitando agregarlo al carrito y realizar un pedido.
               </p>
             </div>
 
-            <div className="flex mt-7 md:mt-0 ">
-              <div className="flex justify-between">
+            <div className="mt-4 md:mt-0">
+              <div className="flex justify-between md:grid md:grid-cols-3 ">
                 <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
                   <button className="btn flex items-center">
                     <span className="hover-underline-animation">Despliegue</span>
@@ -55,7 +55,6 @@ function ProyectoDeFrontend() {
                   target="_blank" rel="noreferrer">
                   <button className="btn flex items-center">
                     <span className="hover-underline-animation">Maquetado</span>
-
                   </button>
                 </a>
 
@@ -74,12 +73,12 @@ function ProyectoDeFrontend() {
           <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
             <img
               src="https://i.ibb.co/nDNg23N/inmobiliaria-MC.webp"
-              alt="Portada del Sitio Web de la Inmobiliaria"
+              alt="Portada del Sitio Web de la Inmobiliaria" width="600" height="400"
             />
           </a>
           <div className="p-5">
 
-            <div>
+            <div className="">
               <BadgeHTML />
               <BadgeBootstrap />
               <BadgeSass />
@@ -93,14 +92,13 @@ function ProyectoDeFrontend() {
             </a>
 
 
-            <p className="text-wrap-balance">
+            <p className="">
               Muestra los inmuebles en venta disponibles de forma rápida, ubicación de la inmobiliaria, sobre el personal y las opciones para ponerse en contacto.
               Se realizó en Figma la maquetación, donde se incluyó la estructura, tipografías, imágenes y colores.
             </p>
 
-            <div className="flex mt-7 md:mt-0">
 
-              <div className="flex justify-between mt-5">
+              <div className="flex justify-between mt-5 md:grid md:grid-cols-3">
                 <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
                   <button className="btn flex items-center">
                     <span className="hover-underline-animation">Despliegue</span>
@@ -121,7 +119,6 @@ function ProyectoDeFrontend() {
                   </button>
                 </a>
               </div>
-            </div>
           </div>
         </div>
 

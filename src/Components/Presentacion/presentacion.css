@@ -1,6 +1,6 @@
 .foto-perfil {
-    width: 30%;
-    height: fit-content;
+    width: 300px;
+    height: 280px;
     margin-top: 50px;
 }
 
@@ -17,8 +17,8 @@
 
 @media screen and (max-width: 1024px) {
     .foto-perfil {
-        width: 30%;
-        height: fit-content;
+        width: 300px;
+        height: 250px;
         display: block;
         margin: 1.5rem;
         margin-top: 50px;
@@ -27,15 +27,14 @@
 
 @media screen and (max-width: 640px) {
     .foto-perfil {
-        width: 100%;
-        height: fit-content;
+        width: 300px;
+        height: 300px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 15px;
     }
 
-    .sobre-mi {
-        text-align: start;
-    }
+    
 
 }
