@@ -14,7 +14,7 @@ function PracticasDeQA() {
       <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-y-12 md:p-2 my-4">
         <div className="max-w-sm">
 
-          <Link to={'/casosdeprueba'} className="mb-2 text-xl tracking-tight text-gray-900 dark:text-white">Casos de Prueba</Link>
+          <Link to={'/casosdeprueba'} className="mb-2 text-xl tracking-tight">Casos de Prueba</Link>
 
           <div className="md:h-28">
             <p className="mb-3 text-normal text-gray-400 text-wrap-balance">En esta sección, encontrarás pruebas que están diseñadas para validar distintos aspectos y escenarios, garantizando un rendimiento confiable en el sitio web.</p>
@@ -27,7 +27,7 @@ function PracticasDeQA() {
         </div>
 
         <div className="max-w-sm">
-          <Link to={'/testdeapis'} className="mb-2 text-xl tracking-tight text-gray-900 dark:text-white">Test de API's</Link>
+          <Link to={'/testdeapis'} className="mb-2 text-xl tracking-tight">Test de API's</Link>
 
           <div className="md:h-28">
             <p className="mb-3 font-normal text-gray-400 text-wrap-balance">Esta sección ofrece una visión de mi habilidad en el manejo de código para Postman. Utilizando principalmente el método GET.</p>
