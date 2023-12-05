@@ -19,7 +19,7 @@ function ProyectoDeFrontend() {
           <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
             <img
               src="https://i.ibb.co/D9xtbJ5/e-commerce.webp"
-              alt="Portada del Sitio Web del e-commerce" width="600" height="400"
+              alt="Portada del Sitio Web del e-commerce" width="100%"
             />
           </a>
           <div className="p-5">
@@ -98,27 +98,27 @@ function ProyectoDeFrontend() {
             </p>
 
 
-              <div className="flex justify-between mt-5 md:grid md:grid-cols-3">
-                <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
-                  <button className="btn flex items-center">
-                    <span className="hover-underline-animation">Despliegue</span>
-                  </button>
-                </a>
+            <div className="flex justify-between mt-5 md:grid md:grid-cols-3">
+              <a href="https://inmobiliariamyc.netlify.app/" target="_blank" rel="noreferrer">
+                <button className="btn flex items-center">
+                  <span className="hover-underline-animation">Despliegue</span>
+                </button>
+              </a>
 
-                <a href="https://www.figma.com/file/NnoQX26vZaqmAtqmYnhDgR/Maquetaci%C3%B3n-Inmobiliaria-M%26C?type=design&node-id=1-2&mode=design"
-                  target="_blank" rel="noreferrer">
-                  <button className="btn flex items-center">
-                    <span className="hover-underline-animation">Maquetado</span>
-                  </button>
-                </a>
+              <a href="https://www.figma.com/file/NnoQX26vZaqmAtqmYnhDgR/Maquetaci%C3%B3n-Inmobiliaria-M%26C?type=design&node-id=1-2&mode=design"
+                target="_blank" rel="noreferrer">
+                <button className="btn flex items-center">
+                  <span className="hover-underline-animation">Maquetado</span>
+                </button>
+              </a>
 
-                <a href="https://github.com/alvarezfelipedev/inmobiliaria-alvarez"
-                  target="_blank" rel="noreferrer">
-                  <button className="btn flex items-center">
-                    <span className="hover-underline-animation">Repositorio</span>
-                  </button>
-                </a>
-              </div>
+              <a href="https://github.com/alvarezfelipedev/inmobiliaria-alvarez"
+                target="_blank" rel="noreferrer">
+                <button className="btn flex items-center">
+                  <span className="hover-underline-animation">Repositorio</span>
+                </button>
+              </a>
+            </div>
           </div>
         </div>
 
