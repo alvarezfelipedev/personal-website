@@ -13,7 +13,7 @@ function Presentacion() {
             <h1 className="nombre text-2xl font-semibold">Felipe Alvarez</h1>
             <div className='flex md:flex-row items-center'>
               <h2 className="subtitulo text-lg md:text-xl font-semibold">QA Tester | Front-End Developer</h2>
-              <img width="30" height="30" className='ml-2 h-max' src="https://img.icons8.com/emoji/48/000000/man-technologyst.png" alt="man-technologyst" />
+              <img className='ml-2 h-max' src="https://img.icons8.com/emoji/48/000000/man-technologyst.png" alt="man-technologyst" width="30" height="30" />
             </div>
           </div>
 

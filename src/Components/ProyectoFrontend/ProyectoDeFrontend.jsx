@@ -19,7 +19,7 @@ function ProyectoDeFrontend() {
           <a href="https://ecommerce-alvarez-felipe.vercel.app/" target="_blank" rel="noreferrer">
             <img
               src="https://i.ibb.co/D9xtbJ5/e-commerce.webp"
-              alt="Portada del Sitio Web del e-commerce" width="100%"
+              alt="Portada del Sitio Web del e-commerce" width="600" height="400"
             />
           </a>
           <div className="p-5">
