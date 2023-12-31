@@ -1,8 +1,9 @@
 import "./skills.css";
 
 import Linea from "../../ToolsComponents/Linea/Linea";
+import SkillCard from "../../ToolsComponents/CardSkill/SkillCard";
 import react from "../../assets/Icons-SVG/react.svg";
-import javacript from "../../assets/Icons-SVG/javascript.svg";
+import javascript from "../../assets/Icons-SVG/javascript.svg";
 import tailwind from "../../assets/Icons-SVG/tailwindcss.svg";
 import sass from "../../assets/Icons-SVG/sass.svg";
 import figma from "../../assets/Icons-SVG/figma.svg";
@@ -14,43 +15,12 @@ function Skills() {
       <h2 className="titulo">Skills</h2>
       <Linea />
       <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] md:p-2  md:grid-cols-3">
-        <div className="card">
-          <div className="mr-2 ">
-            <img width="35" height="35" src={react} alt="Logo de React" />
-          </div>
-          <div className="titulo-lenguaje">React</div>
-        </div>
-        <div className="card">
-          <div className="mr-2">
-            <img width="35" height="35" src={javacript} alt="Logo de JavaScript"
-            />
-          </div>
-          <div className="titulo-lenguaje">JavaScript</div>
-        </div>
-        <div className="card">
-          <div className="mr-2">
-            <img width="35" height="35" src={tailwind} alt="Logo de Github" />
-          </div>
-          <div className="titulo-lenguaje">Tailwind CSS</div>
-        </div>
-        <div className="card">
-          <div className="mr-2">
-            <img width="35" height="35" src={sass} alt="Logo de SQL" />
-          </div>
-          <div className="titulo-lenguaje">Sass</div>
-        </div>
-        <div className="card">
-          <div className="mr-2">
-            <img width="35" height="35" src={figma} alt="Logo de Figma" />
-          </div>
-          <div className="titulo-lenguaje">Figma</div>
-        </div>
-        <div className="card">
-          <div className="mr-2">
-            <img width="35" height="35" src={azure} alt="Logo de Azure" />
-          </div>
-          <div className="titulo-lenguaje">Azure DevOps</div>
-        </div>
+        <SkillCard nombre="React" img={react} />
+        <SkillCard nombre="JavaScript" img={javascript} />
+        <SkillCard nombre="TailwindCSS" img={tailwind} />
+        <SkillCard nombre="Sass" img={sass} />
+        <SkillCard nombre="Figma" img={figma} />
+        <SkillCard nombre="Azure DevOps" img={azure} />
       </div>
     </section>
   );

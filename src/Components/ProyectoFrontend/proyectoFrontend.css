@@ -16,18 +16,6 @@
     text-transform: uppercase;
 }
 
-.btn svg {
-    transform: translateX(-8px);
-    transition: all 0.3s ease;
-}
-
-.btn:hover svg {
-    transform: translateX(0);
-}
-
-.btn:active svg {
-    transform: scale(0.9);
-}
 
 .hover-underline-animation {
     position: relative;
